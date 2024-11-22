@@ -47,19 +47,19 @@ First we want to remote into DC-1 with the remote IPaddress and install Active D
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/8740618e-4e92-4a27-bd62-8807fca4cc4e)
+![image](https://github.com/user-attachments/assets/7ec2f990-2417-48df-877f-1c83e00d4eba)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Log into Client-1 as Jane Doe who has admin rights. Open system properties and click on "remote desktop" and allow "domain users" which will allow all non-admin users to log on to Client-1. Next We will use a script in PowerShell that will create about a thousand user. 
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/0a8e0f58-da95-465b-b9d8-38eec62e22e5)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+And Finally we will set some simple sercuity parameters such as locking an account with to many failed log-ons. How long an account will be locked out after the failed in log in attemps. And enabling administrators to unlock the account when it is locked.
 </p>
 <br />
 
